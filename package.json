@@ -1,14 +1,18 @@
 {
-  "name": "back2you-assistant-backend",
-  "version": "1.0.0",
-  "type": "module",
-  "main": "server.js",
-  "scripts": {
-    "start": "node server.js"
-  },
-  "dependencies": {
-    "cors": "^2.8.5",
-    "express": "^4.19.2",
-    "node-fetch": "^3.3.2"
-  }
+"name": "back2you-assistant",
+"version": "1.0.0",
+"main": "server.js",
+"type": "commonjs",
+"scripts": {
+"start": "node server.js"
+},
+"dependencies": {
+"express": "^4.18.2",
+"cors": "^2.8.5",
+"dotenv": "^16.3.1",
+"openai": "^4.38.0"
+},
+"engines": {
+"node": "18.x"
+}
 }
